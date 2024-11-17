@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(73, 42, 75);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    font-family: 900;
+    font-size: 18px;
+    border: 2px solid rgb(245, 242, 242);
+    padding: 8px;
+    margin-top: 10px;
+}
+.right{
+    margin-top: 20px;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-family: 600;
+    font-size: 18px;
+
+}
+span{
+    color: tomato;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    margin-top: 200px;
+    text-align: center;
+
+}
+.text  h1{
+    color: rgb(40, 203, 89);
+    font-size: 70px;
+    margin: 10px;
+}
+.text   h2{
+    margin: 10px;
+    color: rgb(168, 196, 221);
+}
+.text p{
+    font-size: large;
+    margin: 10px;
+}
+.text button{
+    background-color: rgb(40, 203, 89);
+    font-size: 20PX;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.photo{
+    height: 600px;
+    width: 600px;
+    background-image: url(./pngtree-fitness-gym-power-mascot-png-image_3814308-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon{
+    margin-left: 200px;
+}
+.icon i{
+    font-size: 30px;
+    margin-left: 35px;
+    color: rgb(189, 166, 162);
+}
+.icon i:hover{
+    color: blue;
+}
